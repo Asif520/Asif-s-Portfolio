@@ -129,7 +129,7 @@ nav ul li a:hover{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.250);
+    background-color: rgba(0, 0, 0, 0.021);
 }
 .description a{
     color: red;
@@ -138,7 +138,7 @@ nav ul li a:hover{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.250);
+    background-color: rgba(0, 0, 0, 0.030);
 }
 .resume{
     /* background-color: rgb(63, 58, 58); */
