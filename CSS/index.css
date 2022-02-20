@@ -9,7 +9,7 @@
 
 }
 .index-body{ 
-    background-image: url("/Images/bg-=1.webp");
+    background-image: url("Images/bg-=1.webp");
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;   
@@ -23,7 +23,7 @@ label a{
 }
 .index-header{
     margin: 20px;
-    background-image: url("/Images/bg-6.jpg");
+    background-image: url("Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ padding-left: 300px;
 }
 .edu-header{
     margin: 20px;
-    background-image: url("/Images/bg-6.jpg");
+    background-image: url("Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -270,7 +270,7 @@ padding-left: 300px;
 }
 .cont-header{
     margin: 20px;
-    background-image: url("/Images/bg-6.jpg");
+    background-image: url("Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
