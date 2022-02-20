@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Monoton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+
+}
+.index-body{ 
+    background-image: url("/Images/bg-=1.webp");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;   
+}
+label a{
+    color: White;
+    line-height: 60px;
+    padding: 0px 100px 0px 10px;
+    font-size: 30px;
+    font-family: 'Monoton',cursive;
+}
+.index-header{
+    margin: 20px;
+    background-image: url("/Images/bg-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    opacity: .87;
+}
+.navbar{
+    line-height: 60px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.nav-ul{
+    float: right;
+    margin-right: 20px;
+}
+.nav-ul-li{
+    display: inline;
+    line-height: 40px;
+    padding: 0px 25px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    padding: 0px 5px;
+}
+
+nav ul li a:hover{
+    display: inline-block;
+    box-shadow:0px 0px 2px 2px #ef233c;
+    padding: 0px 5px;
+    font-size: 21px;
+}
+.intro{
+       
+}
+.introduction{
+    width: 45%;
+    float: left;
+    color: white;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+.image{
+    width: 45%;
+    float: right;
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+.this{
+    font-size: 30px;
+}
+.fname{
+    font-size: 60px;
+}
+.student{
+    padding-left: 100px;
+    color: red;
+}
+.student a{
+    color: white;
+    font-weight: bold;
+   text-decoration: underline #ff0000;
+}
+.btn{
+  padding-left: 5px;
+  padding-top: 30px;
+}
+.introduction button{
+    color: #ff0000;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: large;
+    border: 0px;
+}
+.introduction button:hover{
+    padding: 6px;
+    box-shadow: 2px 4px 8px red;
+    color: white;
+}
+.intro img{
+    width: 400px;
+    height: 350px;
+}
+.about{
+    /* background-color: rgb(230, 213, 231); */
+    padding: 50px;
+    
+}
+.welcome{
+    
+    font-size: 40px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.250);
+}
+.description a{
+    color: red;
+}
+.learner{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.250);
+}
+.resume{
+    /* background-color: rgb(63, 58, 58); */
+}
+.resume p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(46, 63, 63);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+iframe{
+padding-left: 300px;
+
+}
+.bangladesh{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.qus{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, .411);
+}
+#image-des{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.26);
+
+}
+.bd-img-3{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.bd-img-3 img{
+    height: 300px;
+    width: 424.5px;
+}
+.bd-img-4{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.bd-img-4 img{
+    height: 250px;
+    width: 317.5px;
+}
+.edu-body{
+    
+}
+.edu-header{
+    margin: 20px;
+    background-image: url("/Images/bg-6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 650px;
+    opacity: .87;
+}
+.edu{
+    color: white;
+    font-size: 50px;
+    padding-left: 350px;
+    padding-top: 200px;
+
+}
+.education{
+    
+}
+.education img{
+    height: 150px;
+    width: 70%;
+    padding-left: 400px;
+}
+.educate img{
+    padding-left: 500px;
+}
+.degree{
+    background-color:azure
+}
+.title{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.institute{
+    color: rgb(33, 47, 177);
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.year{
+    color: rgb(188, 28, 209);
+    font-size: 19px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.grade{
+    color: rgb(188, 28, 209);
+    font-size: 19px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.complete{
+    color: rgb(129, 75, 75);
+    font-size: 35px;
+}
+.under{
+    color: rgb(129, 75, 75);
+    font-size: 25px;
+    padding-top: 10px;
+}
+.contact-body{
+
+}
+.cont-header{
+    margin: 20px;
+    background-image: url("/Images/bg-6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 650px;
+    opacity: .87; 
+}
+.contact{
+    color: white;
+    font-size: 60px;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+footer{
+    height:40px;
+    background-color: rgb(0, 0, 0);
+}
+/* footer div{
+
+} */
+footer div p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color:gold;
+}
