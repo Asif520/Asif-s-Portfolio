@@ -9,10 +9,11 @@
 
 }
 .index-body{ 
-    background-image: url("Images/bg-=1.webp");
+    /* background-image: url("/Images/bg-=1.webp");
     background-repeat: no-repeat;
     background-size:cover ;
-    background-position: center;   
+    background-position: center;    */
+    background-color: black;
 }
 label a{
     color: White;
@@ -22,8 +23,8 @@ label a{
     font-family: 'Monoton',cursive;
 }
 .index-header{
-/*     margin: 20px; */
-    background-image: url("Images/bg-6.jpg");
+    /* margin: 20px; */
+    background-image: url("/Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,10 +71,11 @@ nav ul li a:hover{
     padding-top: 150px;
 }
 .image{
-    width: 45%;
+    width: 50%;
+    height: 100px;
     float: right;
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 80px;
+    padding-left: 140px;
 
 }
 
@@ -109,7 +111,7 @@ nav ul li a:hover{
     color: white;
 }
 .intro img{
-    width: 400px;
+    width: 350px;
     height: 350px;
 }
 .about{
@@ -165,7 +167,7 @@ padding-left: 300px;
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
-    background-color: rgba(0, 0, 0, .030);
+    background-color: rgba(0, 0, 0, 0.030);
 }
 #image-des{
     color: rgb(255, 255, 255);
@@ -199,8 +201,8 @@ padding-left: 300px;
     
 }
 .edu-header{
-/*     margin: 20px; */
-    background-image: url("Images/bg-6.jpg");
+    /* margin: 20px; */
+    background-image: url("/Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -269,19 +271,145 @@ padding-left: 300px;
 
 }
 .cont-header{
-/*     margin: 20px; */
-    background-image: url("Images/bg-6.jpg");
+    /* margin: 20px; */
+    background-image: url("/Images/bg-6.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     height: 650px;
     opacity: .87; 
 }
-.contact{
+.contact-title{
     color: white;
     font-size: 60px;
     padding-left: 500px;
     padding-top: 200px;
+}
+.contact-section{
+    
+}
+
+.contact-section-div{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.home{
+    width: 2%;
+    padding-top: 2px;
+    padding-left: 4px;
+    color: red;
+    
+}
+
+.contact-address{
+    width: 35%;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.present-address{
+    font-weight:900;
+    font-size: 25px;
+    color: red;
+    padding: 2px;
+}
+.address{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+}
+.e-mail-address{
+    width: 35%;
+   padding-left: 200px;
+   padding-top: 20px;
+}
+.e-mail{
+    font-weight:900;
+    font-size: 25px;
+    color: red;
+    padding: 2px;
+}
+.email{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+}
+.phone{
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+}
+.message-form{
+    width: 40%;
+}
+.message-form-title{
+    font-size: 20px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    font-weight: 600;
+    font-family: poppins,sans-serif;
+}
+.fields{
+    display: flex;
+}
+form .field, form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+form .field input, form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.virtual-address{
+    margin-left: 42%;
+}
+.virtual-address a{
+    font-size: 30px;
+    padding: 15px;
+    color: darkblue;
+    
+}
+form .name{
+    
+}
+form .mail{
+
+}
+form .textarea{
+    height: 80px;
+}
+form .textarea textarea{
+    resize: none;
+}
+form .msg-button{
+    padding-left: 9px;
+}
+form button{
+    color:white ;
+    background-color: green;
+    padding: 4px;
+    font-size: large;
+    border: 0;
+    border-radius: 3px;
+}
+.get-in-touch{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    padding: 5px;
 }
 footer{
     height:40px;
