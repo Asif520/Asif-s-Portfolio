@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="CSS\index.css">
+    <script defer src="JS\profile.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28840ea315.js" crossorigin="anonymous"></script>
     <title>Asif's Profile</title>
 </head>
 <body class="contact-body">
@@ -17,11 +19,62 @@
                 <li class="nav-ul-li"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="contact">
+        <div class="contact-title">
             <p> Contacts</p>
 
         </div>
     </header>
+    <section contact-section>
+        <div class="contact-section-div">
+            <div class="home"><i class="fa-solid fa-house"></i></div>
+            <div class="contact-address">
+                <!--  -->
+                <p class="present-address">Personal Address: </p>
+                <p class="address">H-1, Road-Khan Road, Block-B,</p>
+                <p class="address">Dolipara, Uttara, Dhaka-1230(DNCC), Bangladesh.</p>
+            </div>
+            <div class="e-mail-address">
+                <p class="e-mail">E-mail: </p>
+                <p class="email"> asifkn988@gmail.com</p>
+                <p class="email"> asif15-1021@diu.edu.bd</p>
+                <div class="phone" > Call: +88 01777675988</div>
+            </div>
+        </div>
+    </section>
+    <section class="message-form">
+        <div class="message-form-title">Message Me</div>
+        <form name="asifform" action="#" onsubmit="return validateForm()">
+            <div class="fields">
+                <div class="field name">
+                    <input type="text" placeholder="Name" name="fname">
+                </div>
+                 <div class="field mail" >
+                    <input type="email" placeholder="E-mail" name="email">
+                </div>
+            </div>
+            <div class="field" >
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+                <textarea name="textarea" id="" cols="30" rows="10" placeholder="Write in details..." required></textarea>
+            </div>
+            <div class="msg-button">
+                <button type="submit">Send Message</button>
+            </div>
+            <p id="success"></p>
+        </form>
+    </section>
+
+    <section class="virtual_address-section">
+        <p class="get-in-touch">Also Get In Touch......</p>
+        <div class="virtual-address">
+            <a href="https://www.facebook.com/asifde.antraz"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/md-asif-khan-624126204/"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/asifde/"><i class="fa-brands fa-instagram"></i></a>
+            
+        </div>
+
+    </section>
     <footer>
         <div>
             <p> All rights reserved. Copyright © 2022 by Md Asif Khan.</p>
