@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;    */
-    background-color: black;
+    background-color: #352b2b;
 }
 label a{
     color: White;
@@ -87,11 +87,12 @@ nav ul li a:hover{
 }
 .student{
     padding-left: 100px;
-    color: red;
+    color: #f64a8a;
+    font-weight: bold;
 }
 .student a{
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
    text-decoration: underline #ff0000;
 }
 .btn{
@@ -142,11 +143,14 @@ nav ul li a:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.030);
 }
+.learner-p{
+    color:#f64a8a;
+}
 .resume{
     /* background-color: rgb(63, 58, 58); */
 }
 .resume p{
-    color: red;
+    color: cyan;
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
@@ -349,7 +353,8 @@ padding-left: 300px;
     font-size: 20px;
     padding-left: 4px;
     padding-bottom: 2px;
-    padding-top: 4px;
+    padding-top: 6px;
+    padding-bottom: 8px;
     font-weight: 600;
     font-family: poppins,sans-serif;
 }
